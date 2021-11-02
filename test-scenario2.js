@@ -20,13 +20,13 @@ function StepFromShippingAndPaymentToDelivery(){
 }
 
 function FillStandardCustomerDeliveryDataInOrder(){
-    cy.get('#order_personal_info_form_firstName').type('Jméno')
-    cy.get('#order_personal_info_form_lastName').type('Příjení')
-    cy.get('#order_personal_info_form_email').type('roman.kuna@shopsys.com')
-    cy.get('#order_personal_info_form_telephone').type('+420123123123')
-    cy.get('#order_personal_info_form_street').type('Ulice 1')
-    cy.get('#order_personal_info_form_city').type('Město')
-    cy.get('#order_personal_info_form_postcode').type('11111')
+    cy.get('#order_personal_info_form_firstName').type('Jan')
+    cy.get('#order_personal_info_form_lastName').type('Očko')
+    cy.get('#order_personal_info_form_email').type('Jan.ocko@shopsys.com')
+    cy.get('#order_personal_info_form_telephone').type('+420606888777')
+    cy.get('#order_personal_info_form_street').type('Hlavní 1')
+    cy.get('#order_personal_info_form_city').type('Ostrava')
+    cy.get('#order_personal_info_form_postcode').type('70800')
 }
 
 function FillCompanyCustomerDeliveryDataInOrder(){
