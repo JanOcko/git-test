@@ -20,8 +20,8 @@ function StepFromShippingAndPaymentToDelivery(){
 }
 
 function FillStandardCustomerDeliveryDataInOrder(){
-    cy.get('#order_personal_info_form_firstName').type('Jméno')
-    cy.get('#order_personal_info_form_lastName').type('Příjení')
+    cy.get('#order_personal_info_form_firstName').type('Roman')
+    cy.get('#order_personal_info_form_lastName').type('Kuna)
     cy.get('#order_personal_info_form_email').type('roman.kuna@shopsys.com')
     cy.get('#order_personal_info_form_telephone').type('+420123123123')
     cy.get('#order_personal_info_form_street').type('Ulice 1')
