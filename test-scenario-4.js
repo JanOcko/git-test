@@ -18,12 +18,12 @@ it('OrderCzechPost-Cash', function() {
     cy.get('[for="transport_and_payment_form_payment_1"] > .box-chooser__item__title > .box-chooser__title__name').click();
     cy.get('#transport_and_payment_form_payment_1').check();
     cy.get('#transport_and_payment_form_save').click();
-    cy.get('#order_personal_info_form_firstName').type('Honza');
-    cy.get('#order_personal_info_form_lastName').type('Honza');
-    cy.get('#order_personal_info_form_email').type('Honza@shopsys.com');
+    cy.get('#order_personal_info_form_firstName').type('Jan');
+    cy.get('#order_personal_info_form_lastName').type('Jan');
+    cy.get('#order_personal_info_form_email').type('Jan@shopsys.com');
     cy.get('#order_personal_info_form_telephone').type('+420888555222');
-    cy.get('#order_personal_info_form_street').type('Hlavní 484');
-    cy.get('#order_personal_info_form_city').type('Ostrava-Poruba');
+    cy.get('#order_personal_info_form_street').type('Pavní 484');
+    cy.get('#order_personal_info_form_city').type('Poruba');
     cy.get('#order_personal_info_form_postcode').type('70884');
     cy.get('.form-choice__label > .css-checkbox__image').click('right');
     cy.get('#order_personal_info_form_legalConditionsAgreement').check();
