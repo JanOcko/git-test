@@ -1,3 +1,9 @@
+describe('Order', () => {
+    beforeEach(() => {
+        cy.visit('http://master.heimdall.netdevelo:7980/')
+    })
+})
+
 it('OrderCzechPost-Cash', function() {
     
     cy.visit('http://master.heimdall.netdevelo:7980/');
